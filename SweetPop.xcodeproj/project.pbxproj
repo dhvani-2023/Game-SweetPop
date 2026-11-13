@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		534268E67F65205A5DF42988 /* GameKit in Frameworks */ = {isa = PBXBuildFile; productRef = 082370EC76D02F921E6A4994 /* GameKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B34C603CA8DD027B2680A6F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632A88EF6702CCF4ACE25D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116F4A8043E6ACBA08959C20;
+			remoteInfo = SweetPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8054D14CD8CEEB41873E39D6 /* SweetPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E7B9FB9DE532BF115061B0 /* SweetPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1AB8FFC6B89E961CF889B38F /* SweetPop */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SweetPop;
+			sourceTree = "<group>";
+		};
+		C253AC873BE1BC178D461D93 /* SweetPopTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SweetPopTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90F68BD2BAFAC8F8D6C201E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534268E67F65205A5DF42988 /* GameKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8528157991F45D0BEAD12C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8F5D173C940D97E08FEDB88 = {
+			isa = PBXGroup;
+			children = (
+				1AB8FFC6B89E961CF889B38F /* SweetPop */,
+				C253AC873BE1BC178D461D93 /* SweetPopTests */,
+				EF1A1C7E957412DA71954D26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1A1C7E957412DA71954D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8054D14CD8CEEB41873E39D6 /* SweetPop.app */,
+				C8E7B9FB9DE532BF115061B0 /* SweetPopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116F4A8043E6ACBA08959C20 /* SweetPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E88D195BBA1CD8B83E6FC0C;
+			buildPhases = (
+				8A298B171DAE0B1A2BF12ECE /* Sources */,
+				90F68BD2BAFAC8F8D6C201E2 /* Frameworks */,
+				393C4D02AED53822A4B59D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1AB8FFC6B89E961CF889B38F /* SweetPop */,
+			);
+			name = SweetPop;
+			packageProductDependencies = (
+				082370EC76D02F921E6A4994 /* GameKit */,
+			);
+			productName = SweetPop;
+			productReference = 8054D14CD8CEEB41873E39D6 /* SweetPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA59FA14C098B145DBDD817 /* SweetPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13404C5AAC1AE9DC07709A9C;
+			buildPhases = (
+				900EAC304EB448AB9E6087CF /* Sources */,
+				8528157991F45D0BEAD12C62 /* Frameworks */,
+				40F03F00A25F7A3B415E0FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50575A29AC301EF5AA62B0B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C253AC873BE1BC178D461D93 /* SweetPopTests */,
+			);
+			name = SweetPopTests;
+			packageProductDependencies = (
+			);
+			productName = SweetPopTests;
+			productReference = C8E7B9FB9DE532BF115061B0 /* SweetPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		632A88EF6702CCF4ACE25D79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					116F4A8043E6ACBA08959C20 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					EDA59FA14C098B145DBDD817 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 116F4A8043E6ACBA08959C20;
+					};
+				};
+			};
+			buildConfigurationList = 9029BFC3E79234BB63E09969;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8F5D173C940D97E08FEDB88;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E883C285A5C1C95EDC898DD4 /* XCLocalSwiftPackageReference "Packages/GameKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EF1A1C7E957412DA71954D26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116F4A8043E6ACBA08959C20 /* SweetPop */,
+				EDA59FA14C098B145DBDD817 /* SweetPopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		393C4D02AED53822A4B59D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F03F00A25F7A3B415E0FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A298B171DAE0B1A2BF12ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900EAC304EB448AB9E6087CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A50575A29AC301EF5AA62B0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116F4A8043E6ACBA08959C20 /* SweetPop */;
+			targetProxy = B34C603CA8DD027B2680A6F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03178A77042B9E73E92A1015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CBB6E1ACD5AF607AAEC57B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91E0C8FC3F287BA30D44655B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sweet Pop";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.sweetpop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		232A88E0A634CAB4B09AB430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sweet Pop";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.sweetpop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1A0BC43A2C78D526799E21AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.sweetpop.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetPop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SweetPop";
+			};
+			name = Debug;
+		};
+		9D91858B344ECE95798A85B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.puzzel.lab.sweetpop.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetPop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SweetPop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9029BFC3E79234BB63E09969 /* Build configuration list for PBXProject "SweetPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03178A77042B9E73E92A1015 /* Debug */,
+				CBB6E1ACD5AF607AAEC57B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E88D195BBA1CD8B83E6FC0C /* Build configuration list for PBXNativeTarget "SweetPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E0C8FC3F287BA30D44655B /* Debug */,
+				232A88E0A634CAB4B09AB430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13404C5AAC1AE9DC07709A9C /* Build configuration list for PBXNativeTarget "SweetPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0BC43A2C78D526799E21AC /* Debug */,
+				9D91858B344ECE95798A85B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E883C285A5C1C95EDC898DD4 /* XCLocalSwiftPackageReference "Packages/GameKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/GameKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		082370EC76D02F921E6A4994 /* GameKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GameKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 632A88EF6702CCF4ACE25D79 /* Project object */;
+}
